@@ -1,0 +1,27 @@
+{
+  "name": "microservices-nginx",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon first-server/first.app.js",
+    "dev": "nodemon second-server/second.app.js",
+      "start:all": "npm start & npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siffahim/typescript-mongoose-express-backend-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siffahim/typescript-mongoose-express-backend-template/issues"
+  },
+  "homepage": "https://github.com/siffahim/typescript-mongoose-express-backend-template#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
